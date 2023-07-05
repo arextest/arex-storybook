@@ -1,0 +1,40 @@
+{
+  "name": "arex-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages -d storybook-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arextest/arex-storybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arextest/arex-storybook/issues"
+  },
+  "homepage": "https://github.com/arextest/arex-storybook#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.25",
+    "@storybook/addon-interactions": "^7.0.25",
+    "@storybook/addon-links": "^7.0.25",
+    "@storybook/blocks": "^7.0.25",
+    "@storybook/react": "^7.0.25",
+    "@storybook/react-vite": "^7.0.25",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "gh-pages": "^5.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.25"
+  },
+  "dependencies": {
+    "@arextest/arex-core": "^0.0.3-beta.25"
+  }
+}
